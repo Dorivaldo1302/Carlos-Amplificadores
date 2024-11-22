@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+  
+  <!-- HTML -->
+  
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <img src="logo.png" alt="logo.png">
+    <button class="menu" onclick="ativar()">&#9776;</button>
+  </header>
+  <nav>
+    <a href="#inicio" class="ativo">Início</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#produtos">Produtos</a>
+    <a href="#depoimentos">Depoimentos</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <main onclick="remover()">
+    <div class="banner" id="inicio">
+      <div>
+        <h1>Amplifique o som, amplifique a experiência!</h1>
+         <h2>A tecnologia perfeita para músicos, DJs e apaixonados por som de alta qualidade.</h2>
+         <a href="https://wa.me/244924129578?text=Olá%2C%20Carlos%20Amplificadores!%20Gostaria%20de%20saber%20mais%20sobre%20os%20amplificadores%20e%20serviços%20oferecidos.%20Poderia%20me%20ajudar%3F"><button class="cta">Conheça nossos produtos</button></a>
+      </div>
+    </div>
+    <div class="sobre" id="sobre">
+      <h1>Sobre Nós</h1>
+      <p>Carlos Amplificadores é referência em qualidade sonora. Desde 2005, transformamos o som em emoção, criando amplificadores robustos, potentes e perfeitos para músicos, DJs e apaixonados por áudio.</p>
+      <span>Nosso compromisso é oferecer equipamentos de alta performance que duram por gerações.</span>
+      <img src="sobre.jpg" alt="sobre.png">
+    </div>
+    <div class="produtos" id="produtos">
+      <h1 class="titulo">Nossos Amplificadores</h1>
+      <div class="produto">
+        <img src="p1.webp" alt="p1.jpg">
+        <h1>Modelo ProBass 500</h1>
+        <h2>Compacto e potente, perfeito para músicos itinerantes.</h2>
+        <h3>Preço: Kz 90,000.</h3>
+        <button class="cta">Ver Detalhes</button>
+      </div>
+      <div class="produto">
+        <img src="p2.jpg" alt="p2.jpg">
+        <h1>Modelo SoundMaster 300</h1>
+        <h2>Potência de 500W, ideal para grandes eventos.</h2>
+        <h3>Preço: Kz 150,000.</h3>
+        <button class="cta">Ver Detalhes</button>
+      </div>
+      <div class="produto">
+        <img src="p3.png" alt="p3.jpg">
+        <h1>Modelo Classic Amp 150</h1>
+        <h2>Design clássico com tecnologia moderna, ideal para estúdios.</h2>
+        <h3>Preço: Kz 70,000.</h3>
+        <button class="cta">Ver Detalhes</button>
+      </div>
+    </div>
+    
+    <div class="depoimentos" id="depoimentos">
+      <h1 class="titulo">O que nossos clientes dizem</h1>
+      <div class="depoimento">
+        <img src="dp1.png" alt="dp1.png">
+        <h1>O som é incrível! Estou usando há 2 anos e continua como novo! – <span>João A.</span></h1>
+      </div>
+      <div class="depoimento">
+        <img src="dp2.png" alt="dp1.png">
+        <h1>Qualidade imbatível, entrega rápida. Recomendo! – <span>Maria S.</span></h1>
+      </div>
+      <div class="depoimento">
+        <img src="dp3.png" alt="dp1.png">
+        <h1>Os amplificadores têm uma potência fantástica, nunca me deixam na mão! – <span>Pedro L.</span></h1>
+      </div>
+    </div>
+    
+    <div class="contacto" id="contacto">
+      <h1 class="titulo">Entre em contato conosco para saber mais!</h1>
+      <form class="form">
+        <input type="text" placeholder="Nome">
+        <input type="email" placeholder="E-Mail">
+        <textarea name="" id="msg" cols="30" rows="10" placeholder="Mensagem"></textarea>
+        <a href="https://wa.me/244924129578?text=Olá%2C%20Carlos%20Amplificadores!%20Gostaria%20de%20saber%20mais%20sobre%20os%20amplificadores%20e%20serviços%20oferecidos.%20Poderia%20me%20ajudar%3F"><button class="cta">Enviar</button></a>
+    </div>
+  </main>
+  <footer>
+    <p>©2024 Carlos Amplificadores. todos os direitos reservados.</p>
+    <a href="#"><img src="whats.png" alt="whats.png"></a>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
